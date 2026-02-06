@@ -11,7 +11,4 @@ export class App {
   protected readonly title = signal('classes-mfe');
 
 }
-
-export function getComponent () {
-  return App
-}
+// Don't need any getComponent()
